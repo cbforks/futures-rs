@@ -12,6 +12,7 @@
 
 #[cfg(feature = "alloc")]
 extern crate alloc;
+// XXX TBD ???
 #[cfg(feature = "std")]
 extern crate std;
 

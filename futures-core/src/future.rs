@@ -104,6 +104,7 @@ mod if_alloc {
         }
     }
 
+    // XXX TBD ???
     #[cfg(feature = "std")]
     impl<F: FusedFuture> FusedFuture for std::panic::AssertUnwindSafe<F> {
         fn is_terminated(&self) -> bool {

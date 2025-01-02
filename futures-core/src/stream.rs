@@ -224,6 +224,7 @@ mod if_alloc {
         }
     }
 
+    // XXX TBD ???
     #[cfg(feature = "std")]
     impl<S: Stream> Stream for std::panic::AssertUnwindSafe<S> {
         type Item = S::Item;
